@@ -1,0 +1,90 @@
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 16vh;
+    margin-bottom: 20vh;
+    background: linear-gradient(-45deg, transparent 16px, #1E1E1E 0), linear-gradient(45deg, transparent 16px, #1E1E1E 0);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 22px 32px;
+}
+
+header h1 {
+    width: 100%;
+    background-color: #1E1E1E;
+    color: #F9F4F4;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    font-weight: 100;
+    font-size: 4em;
+    padding: .1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    /* font-weight: 800; */
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 15vh auto;
+}
+
+.basics {
+    flex: 1;
+}
+
+.basics_content {
+    color: grey;
+    font-size: .9em;
+    line-height: .5em;
+}
+
+a {
+    color: black;
+}
+
+.story {
+    flex: 2;
+    /* display: inline-block; */
+    margin-left: 2em;
+}
+
+.story h2 {
+    padding-left: .8em;
+}
+
+.story_content {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    border-left: dotted 1px grey;
+    padding-left: 2em;
+}
+
+.story_content p {
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+.story_content img {
+    float: right;
+    margin-left: 5em;
+}
+
+img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
