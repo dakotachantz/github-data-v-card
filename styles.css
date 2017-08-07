@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
     background-size: 22px 32px;
 }
 
-header h1 {
+header p {
     width: 100%;
     background-color: #1E1E1E;
     color: #F9F4F4;
@@ -24,13 +24,16 @@ header h1 {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 4em;
     padding: .1em;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
 }
 
 h2 {
     font-size: 2.5em;
+    font-family: 'Merriweather', sans-serif;
     /* font-weight: 800; */
 }
 
@@ -43,12 +46,14 @@ h2 {
 
 .basics {
     flex: 1;
+    margin-top: 1em;
 }
 
 .basics_content {
     color: grey;
     font-size: .9em;
     line-height: .5em;
+    font-weight: 300;
 }
 
 a {
@@ -59,6 +64,7 @@ a {
     flex: 2;
     /* display: inline-block; */
     margin-left: 2em;
+    margin-top: 1em;
 }
 
 .story h2 {
@@ -71,6 +77,8 @@ a {
     color: grey;
     border-left: dotted 1px grey;
     padding-left: 2em;
+    line-height: 1.4em;
+    font-weight: 300;
 }
 
 .story_content p {

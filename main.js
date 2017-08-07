@@ -7,7 +7,7 @@ function reqListener() {
     let data = JSON.parse(this.responseText);
 
     const heading = `
-    <h1>${data.name}</h1>
+    <p>${data.name}</p>
 `
     const basics =
         `
@@ -15,7 +15,7 @@ function reqListener() {
     <div class="basics_content">
     <p>Name: ${data.name}</p>
     <p>Github URL: <a href="${data.html_url}">${data.login}</a></p>
-    <p>Email: ${data.email}</p>
+    <p>Email: <a href="mailto:dakotachantz@gmail.com?Subject=Hello%20World">dakotachantz@gmail.com</a></p>
     <p>Company: ${data.company}</p>
     <p>Website: <a href="${data.blog}">${data.blog}</a></p>
     </div>
