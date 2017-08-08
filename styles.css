@@ -15,7 +15,7 @@ header {
     background-size: 22px 32px;
 }
 
-header p {
+header h1 {
     width: 100%;
     background-color: #1E1E1E;
     color: #F9F4F4;
@@ -27,14 +27,13 @@ header p {
     font-weight: 300;
     font-size: 4em;
     padding: .1em;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", serif;
     font-weight: 100;
 }
 
 h2 {
     font-size: 2.5em;
     font-family: 'Merriweather', sans-serif;
-    /* font-weight: 800; */
 }
 
 .container {
@@ -87,12 +86,8 @@ a {
 }
 
 .story_content img {
-    float: right;
     margin-left: 5em;
-}
-
-img {
-    height: 110px;
-    width: 110px;
+    height: 6.875em;
+    width: 6.875em;
     border-radius: 50%;
 }

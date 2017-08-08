@@ -7,7 +7,7 @@ function reqListener() {
     let data = JSON.parse(this.responseText);
 
     const heading = `
-    <p>${data.name}</p>
+    <h1>${data.name}</h1>
 `
     const basics =
         `
@@ -23,9 +23,9 @@ function reqListener() {
 
     const story =
         `
- <h2>The Story</h2>
-<div class="story_content">
-<p>${data.bio}</p>
+    <h2>The Story</h2>
+    <div class="story_content">
+    <p>${data.bio}</p>
     <img src="${data.avatar_url}" alt="avatar picture">
     </div>
  `
